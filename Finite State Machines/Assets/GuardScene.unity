@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4512598, g: 0.5000591, b: 0.5686134, a: 1}
+  m_IndirectSpecularColor: {r: 0.18372479, g: 0.22815877, b: 0.29906696, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -137,6 +137,54 @@ PrefabInstance:
     - target: {fileID: 431280034300401484, guid: 87f465c82db6b484ca3ec1be1dd799fb, type: 3}
       propertyPath: m_ApplyRootMotion
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246508169440019545, guid: 87f465c82db6b484ca3ec1be1dd799fb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0028252222
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246508169440019545, guid: 87f465c82db6b484ca3ec1be1dd799fb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.27965856
+      objectReference: {fileID: 0}
+    - target: {fileID: 3784639181356519378, guid: 87f465c82db6b484ca3ec1be1dd799fb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.80875957
+      objectReference: {fileID: 0}
+    - target: {fileID: 3784639181356519378, guid: 87f465c82db6b484ca3ec1be1dd799fb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.009236044
+      objectReference: {fileID: 0}
+    - target: {fileID: 4429514524265014227, guid: 87f465c82db6b484ca3ec1be1dd799fb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5812516
+      objectReference: {fileID: 0}
+    - target: {fileID: 4429514524265014227, guid: 87f465c82db6b484ca3ec1be1dd799fb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.46999726
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677536181853054294, guid: 87f465c82db6b484ca3ec1be1dd799fb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.76183224
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677536181853054294, guid: 87f465c82db6b484ca3ec1be1dd799fb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.21946117
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677536181853054294, guid: 87f465c82db6b484ca3ec1be1dd799fb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0013086488
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677536181853054294, guid: 87f465c82db6b484ca3ec1be1dd799fb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.6094642
+      objectReference: {fileID: 0}
+    - target: {fileID: 6379160063670019428, guid: 87f465c82db6b484ca3ec1be1dd799fb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9971361
+      objectReference: {fileID: 0}
+    - target: {fileID: 6379160063670019428, guid: 87f465c82db6b484ca3ec1be1dd799fb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.010894547
       objectReference: {fileID: 0}
     - target: {fileID: 6714142460789114917, guid: 87f465c82db6b484ca3ec1be1dd799fb, type: 3}
       propertyPath: m_Name
@@ -1320,6 +1368,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2768438690450590640, guid: 3dc4a0fc57551479ca6d1e8f3582ab28, type: 3}
   m_PrefabInstance: {fileID: 1996421740}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &628361289 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 572105835304292498, guid: 600be4a371d7c41a58b162eb0d4ffdb7, type: 3}
+  m_PrefabInstance: {fileID: 1520082996}
+  m_PrefabAsset: {fileID: 0}
 --- !u!850595691 &700724617
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -1562,6 +1615,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &786520898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786520889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b89f30a17a8a0142859f2491aefc529, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 628361289}
 --- !u!1001 &830883468
 PrefabInstance:
   m_ObjectHideFlags: 0
