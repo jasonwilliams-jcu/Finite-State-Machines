@@ -130,7 +130,17 @@ public class Patrol : State
 
     public override void Enter()
     {
-        currentIndex = 0; // This will start agent at the first waypoint.
+        float lastDist = Mathf.Infinity;
+        for (int i = 0; i < GameEnvironment.Singleton.Checkpoints.Count; i++)// This will start agent at the first waypoint.
+        {
+            GameObject thisWP = GameEnvironment.Singleton.Checkpoints[i];
+            float distance = Vector3.Distance(npc.transform.position, thisWP.transform.position);
+            if (distance < lastDist)
+            {
+                currentIndex = i - 1;
+                lastDist = distance;
+            }
+        }
         anim.SetTrigger("isWalking"); // Start agent walking animation.
         base.Enter();
     }
